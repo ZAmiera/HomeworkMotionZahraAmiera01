@@ -75,10 +75,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   const Text(
                     'Sabtu, 08 okt 2022 22:41 WIB',
                     style: TextStyle(
-                      fontSize: 12,
-                      fontWeight: FontWeight.w600,
-                      color: Colors.black,
-                    ),
+                        fontSize: 12,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.black,
+                        fontFamily: 'Poppins'),
                   ),
                   const SizedBox(
                     height: 29,
@@ -92,9 +92,9 @@ class _MyHomePageState extends State<MyHomePage> {
                           Text(
                             'BCA Virtual Account',
                             style: TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.w600,
-                            ),
+                                fontSize: 16,
+                                fontWeight: FontWeight.w600,
+                                fontFamily: 'Poppins'),
                           ),
                           SizedBox(
                             height: 4,
@@ -102,10 +102,10 @@ class _MyHomePageState extends State<MyHomePage> {
                           Text(
                             'Transaksi Virtual Account',
                             style: TextStyle(
-                              fontSize: 12,
-                              color: Colors.grey,
-                              fontWeight: FontWeight.w500,
-                            ),
+                                fontSize: 12,
+                                color: Colors.grey,
+                                fontWeight: FontWeight.w500,
+                                fontFamily: 'Poppins'),
                           ),
                         ],
                       ),
@@ -132,10 +132,10 @@ class _MyHomePageState extends State<MyHomePage> {
                           Text(
                             'Nomor Virtual Account',
                             style: TextStyle(
-                              fontSize: 12,
-                              color: Colors.grey,
-                              fontWeight: FontWeight.w500,
-                            ),
+                                fontSize: 12,
+                                color: Colors.grey,
+                                fontWeight: FontWeight.w500,
+                                fontFamily: 'Poppins'),
                           ),
                           SizedBox(
                             height: 4,
@@ -143,9 +143,9 @@ class _MyHomePageState extends State<MyHomePage> {
                           Text(
                             '0918320930817437482',
                             style: TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.w600,
-                            ),
+                                fontSize: 16,
+                                fontWeight: FontWeight.w600,
+                                fontFamily: 'Poppins'),
                           ),
                         ],
                       ),
@@ -166,10 +166,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   const Text(
                     'Total Tagihan',
                     style: TextStyle(
-                      fontSize: 16,
-                      fontWeight: FontWeight.w500,
-                      color: Colors.black,
-                    ),
+                        fontSize: 16,
+                        fontWeight: FontWeight.w500,
+                        color: Colors.black,
+                        fontFamily: 'Poppins'),
                   ),
                   const SizedBox(
                     height: 4,
@@ -177,10 +177,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   const Text(
                     'Rp1.772.500',
                     style: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.w600,
-                      color: Color.fromARGB(255, 255, 103, 103),
-                    ),
+                        fontSize: 20,
+                        fontWeight: FontWeight.w600,
+                        color: Color.fromARGB(255, 255, 103, 103),
+                        fontFamily: 'Poppins'),
                   ),
                   const SizedBox(
                     height: 24,
@@ -188,9 +188,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   const Text(
                     'Detail belanja',
                     style: TextStyle(
-                      fontSize: 16,
-                      fontWeight: FontWeight.w600,
-                    ),
+                        fontSize: 16,
+                        fontWeight: FontWeight.w600,
+                        fontFamily: 'Poppins'),
                   ),
                   const SizedBox(
                     height: 5,
@@ -204,10 +204,10 @@ class _MyHomePageState extends State<MyHomePage> {
                           Text(
                             'Total Harga Barang',
                             style: TextStyle(
-                              fontSize: 12,
-                              color: Colors.grey,
-                              fontWeight: FontWeight.w500,
-                            ),
+                                fontSize: 12,
+                                color: Colors.grey,
+                                fontWeight: FontWeight.w500,
+                                fontFamily: 'Poppins'),
                           ),
                           SizedBox(
                             height: 4,
@@ -215,10 +215,10 @@ class _MyHomePageState extends State<MyHomePage> {
                           Text(
                             'Total ongkos kirim',
                             style: TextStyle(
-                              fontSize: 12,
-                              color: Colors.grey,
-                              fontWeight: FontWeight.w500,
-                            ),
+                                fontSize: 12,
+                                color: Colors.grey,
+                                fontWeight: FontWeight.w500,
+                                fontFamily: 'Poppins'),
                           ),
                           SizedBox(
                             height: 5,
@@ -226,10 +226,10 @@ class _MyHomePageState extends State<MyHomePage> {
                           Text(
                             'Asuransi',
                             style: TextStyle(
-                              fontSize: 12,
-                              color: Colors.grey,
-                              fontWeight: FontWeight.w500,
-                            ),
+                                fontSize: 12,
+                                color: Colors.grey,
+                                fontWeight: FontWeight.w500,
+                                fontFamily: 'Poppins'),
                           ),
                           SizedBox(
                             height: 5,
@@ -241,20 +241,20 @@ class _MyHomePageState extends State<MyHomePage> {
                           children: const [
                             Text('Rp1.772.500',
                                 style: TextStyle(
-                                  fontSize: 12,
-                                  color: Colors.grey,
-                                  fontWeight: FontWeight.w500,
-                                )),
+                                    fontSize: 12,
+                                    color: Colors.grey,
+                                    fontWeight: FontWeight.w500,
+                                    fontFamily: 'Poppins')),
                             SizedBox(
                               height: 4,
                             ),
                             Text(
                               'Rp12000',
                               style: TextStyle(
-                                fontSize: 12,
-                                color: Colors.grey,
-                                fontWeight: FontWeight.w500,
-                              ),
+                                  fontSize: 12,
+                                  color: Colors.grey,
+                                  fontWeight: FontWeight.w500,
+                                  fontFamily: 'Poppins'),
                             ),
                             SizedBox(
                               height: 5,
@@ -262,10 +262,10 @@ class _MyHomePageState extends State<MyHomePage> {
                             Text(
                               'Rp1000',
                               style: TextStyle(
-                                fontSize: 12,
-                                color: Colors.grey,
-                                fontWeight: FontWeight.w500,
-                              ),
+                                  fontSize: 12,
+                                  color: Colors.grey,
+                                  fontWeight: FontWeight.w500,
+                                  fontFamily: 'Poppins'),
                             ),
                           ])
                     ],
@@ -289,10 +289,10 @@ class _MyHomePageState extends State<MyHomePage> {
                       const Text(
                         'Pesanan akan dikonfirmasi oleh penjual apabila proses pembayaran telah berhasil.',
                         style: TextStyle(
-                          fontSize: 12,
-                          color: Color.fromARGB(255, 175, 171, 171),
-                          fontWeight: FontWeight.w500,
-                        ),
+                            fontSize: 12,
+                            color: Color.fromARGB(255, 175, 171, 171),
+                            fontWeight: FontWeight.w500,
+                            fontFamily: 'Poppins'),
                       ),
                       SizedBox(
                         height: 12,
@@ -311,10 +311,10 @@ class _MyHomePageState extends State<MyHomePage> {
                             maxLines: 3,
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                              fontWeight: FontWeight.w600,
-                              fontSize: 20,
-                              color: Colors.white,
-                            ),
+                                fontWeight: FontWeight.w600,
+                                fontSize: 20,
+                                color: Colors.white,
+                                fontFamily: 'Poppins'),
                           ),
                         ),
                       ),
@@ -325,7 +325,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         height: 2,
                       ),
                       Container(
-                        padding: const EdgeInsets.all(12.0),
+                        padding: const EdgeInsets.all(8.0),
                         width: 380,
                         height: 49,
                         decoration: BoxDecoration(
@@ -340,10 +340,10 @@ class _MyHomePageState extends State<MyHomePage> {
                           maxLines: 3,
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                            fontWeight: FontWeight.w600,
-                            fontSize: 20,
-                            color: Color.fromARGB(255, 28, 103, 88),
-                          ),
+                              fontWeight: FontWeight.w600,
+                              fontSize: 20,
+                              color: Color.fromARGB(255, 28, 103, 88),
+                              fontFamily: 'Poppins'),
                         ),
                       ),
                     ],
